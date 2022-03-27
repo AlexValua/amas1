@@ -1,0 +1,403 @@
+* {
+    background-color:  #061C33;
+    color: white;
+}
+
+#wrapper{
+    background-color: transparent;
+    max-width: 1440px;
+    max-height: 1024px;
+    width: 100%;
+    height: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#logo{
+    background-color: transparent;
+    width: 100px;
+    height: 155px;
+}
+
+#svg{
+    background-color: transparent;
+    width: 922.38px;
+    height: 995.51px;
+    position: absolute;
+    left: 35.9%;
+    right: 5.04%;
+    top: 2.05%;
+    bottom: 0.73%;
+    opacity: 0.4;
+}
+
+#girl{
+    background-color: transparent;
+    position: absolute;
+    width: 67%;
+    height: 67%;
+    right: 38%;
+    top: 5.31%;
+    bottom: 28.17%;
+
+}
+
+#text1{
+    background-color: transparent;	
+    position: absolute;
+    width: 598px;
+    height: 90px;
+    left: 48%;
+    right: 8.47%;
+    top: 20.52%;
+    bottom: 62.7%;
+    font-size: 30px;
+}
+
+#text2{
+    background-color: transparent;	
+    position: absolute;
+    width: 523px;
+    height: 120px;
+    font-size: 22px;
+    left: 48%;
+    right: 13.47%;
+    top: 35.04%;
+    bottom: 44.24%;
+}
+
+#button{
+    position: absolute;
+    width: 540px;
+    height: 73px;
+    font-size: 30px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    background: #298EA7;
+    border-radius: 10px;
+    left: 48%;
+    top: 55%;
+}
+
+#facebook{
+    width: 19px;
+    height: 35px;
+    background-color: transparent;
+    position: absolute;
+    left: 48.5%;
+    top: 80.3%;
+}
+
+#linked{
+    width: 34px;
+    height: 35px;
+    background-color: transparent;
+    position: absolute;
+    left: 52.5%;
+    top: 80.3%;
+}
+
+#phone{
+    background-color: transparent;
+    position: absolute;
+    width: 32px;
+    height: 34.04px;
+    left: 28.44%;
+    right: 73.33%;
+    top: 87.79%;
+    bottom: 8.88%;
+}
+
+
+#number{
+    background-color: transparent;
+    position: absolute;
+    left: 31.29%;
+    right: 56.32%;
+    top: 86.50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+#location{
+    background-color: transparent;
+    position: absolute;
+    width: 27,2px;
+    height: 34.04px;
+    left: 43%;
+    top: 87.79%;
+    bottom: 8.88%;
+}
+
+#locationtext{
+    background-color: transparent;
+    position: absolute;
+    left: 45.7%;
+    right: 39.91%;
+    top: 86.50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 21px;
+}
+#mail{
+    background-color: transparent;
+    position: absolute; 
+    width:32px;
+    height: 30.63px;
+    left: 62.33%;
+    right: 34.44%;
+    top: 87.90%;
+    bottom: 9.22%;
+}
+
+#infomail{
+    background-color: transparent;
+    position: absolute;
+    left: 65%;
+    right: 17.01%;
+    top: 86.70%;
+    bottom: 9.86%;
+    font-family: 'Arial';
+    font-style: normal;
+    font-size: 20px;
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-device-width: 1200px) {
+    #logo{
+        width: 200px;
+        height: 255px;
+        }
+    #text1{
+        left: 57%;
+    }
+    #text2{
+        left: 57%;
+    }
+
+    #facebook{
+        left: 57.5%;
+    }
+
+    #linked{
+        left: 65.5%;
+    }
+
+    #text1{
+        left: 55%;
+    }
+    #text2{
+        top: 50%;
+        left: 55%;
+    }
+    #button{
+        left: 57%;
+    }
+    #facebook{
+        left: 57.5%;
+    }
+    #linked{
+        left: 65.5%;
+    }
+    #girl{
+        top: 10.31%;
+        width: 65%;
+        height: 65%;
+    }
+    #phone{
+        width: 32px;
+        height: 34.04px;
+        left: 18.44%;
+        top: 87.79%;
+    }
+    #number{
+        left: 23%;
+        right: 56.32%;
+        top: 86.50%;
+        font-size: 20px;
+    }
+    
+    #location{
+        width: 27,2px;
+        height: 34.04px;
+        left: 45%;
+        top: 87.79%;
+        bottom: 8.88%;
+    }
+    
+    #locationtext{
+        left: 48.7%;
+        width: 100%;
+    }
+    #mail{
+        width:32px;
+        height: 30.63px;
+        left: 85%;
+        top: 87.90%;
+    }
+    
+    #infomail{
+        left: 89%;
+        right: 17.01%;
+        top: 86.70%;
+        bottom: 9.86%;
+        font-size: 20px;
+    }
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-device-width: 992px) {
+    #logo{
+        width: 200px;
+        height: 255px;
+        }
+    #wrapper{
+        width: 30%;
+        height: 30%;
+    }
+    #text1{
+        font-size: 40px;
+        left: 65%;
+    }
+    #text2{
+        width: 95%;
+        font-size: 35px;
+        line-height: 35px;
+        left: 65%;
+    }
+    #girl{
+        width: 800px;
+        height: 800px;
+        right: 30%;
+    }
+    #svg{
+        width: 1200px;
+        height: 1200px;
+    }
+    #facebook{
+        width: 45px;
+        height: 71px;
+        left: 65.5%;
+        top: 95.3%;
+    }
+    
+    #linked{
+        width: 70px;
+        height: 71px;
+        left: 75.5%;
+        top: 95.3%;
+    }
+
+    #phone{
+        width: 72px;
+        height: 74.04px;
+        left: 5.44%;
+        top: 110.79%;
+    }
+    #number{
+        width: 100%;
+        left: 14%;
+        right: 56.32%;
+        top: 110.50%;
+        font-size: 35px;
+    }
+    
+    #location{
+        width: 67,2px;
+        height: 74.04px;
+        left: 45%;
+        top: 110.79%;
+        bottom: 8.88%;
+    }
+    
+    #locationtext{
+        top: 110%;
+        left: 51.7%;
+        width: 70%;
+        font-size: 35px;
+    }
+    #mail{
+        width:72px;
+        height: 70.63px;
+        left: 105%;
+        top: 110.90%;
+    }
+    
+    #infomail{
+        left: 113%;
+        top: 109.70%;
+        bottom: 9.86%;
+        font-size: 35px;
+    }
+    
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-device-width: 600px) {
+    #logo{
+    width: 200px;
+    height: 255px;
+    
+    }
+
+    #girl{
+        width: 1200px;
+        height: 1200px;
+        right: -4%;
+    }
+    #text1{
+        width: 90%;
+        font-size: 50px;
+        top: 10%;
+        left: 50%;
+    }
+    #text2{
+        width: 120%;
+        font-size: 50px;
+        line-height: 45px;
+        top: 70%;
+        left: 10%;
+    }
+    #svg{
+        top: 15%;
+    }
+    #facebook, #linked{
+        top: 82%;
+    }
+    #phone{
+        top: 87%;
+    }
+    #number{
+        left: 20%;
+        top: 87%;
+        font-size: 45px;
+    }
+    #location{
+        left: 6%;
+        top: 95%;
+    }
+    #locationtext{
+        top: 95%;
+        left: 20%;
+        font-size: 45px;
+    }
+    #mail{
+        left: 5%;
+        top: 102%;
+    }
+    #infomail{
+        left: 20%;
+        font-size: 45px;
+        top: 101%;
+    }
+}
+    
+}

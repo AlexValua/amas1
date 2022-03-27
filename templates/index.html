@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Amas: ISO Standartization</title>
+        <link rel="shortcut ucon" href="../images/logo.svg">
+        <link rel="stylesheet" href="../css/styleindex.css">
+    </head>
+    <body>
+        <!-- wrapper div - for control the page max-size -->
+        <div id="wrapper">
+
+            <!-- log div - for the logo image -->
+            <div id="logo"><img src="../images/logo.svg" alt="Amas Logo"></div>
+
+            <!-- svg div - for the svg animated images -->
+            <div onclick="changeImage()"><img src="../images/svg1.svg" alt="Pomegranate" id="svg" onclick="changeImage()" >
+                <script language="javascript">
+                    function changeImage() {
+                
+                        if (document.getElementById("svg").src == "../images/svg1.svg") 
+                        {
+                            document.getElementById("svg").src = ("../images/svg2.svg".id="sss".onclick="change2()");
+                            function change2() {
+                                if (document.getElementById("sss").src == "../images/svg2.svg") {
+                                    document.getElementById("svg").src = "../images/svg3.svg"
+                                }
+                                else 
+                        {
+                            document.getElementById("svg").src = "../images/svg3.svg";
+                        }
+                            }
+
+                        }
+                        else 
+                        {
+                            document.getElementById("svg").src = "../images/svg3.svg";
+                        }
+                    }
+                </script>
+            </div>
+
+            <!-- girl div - for the girl image -->
+            <div><img  id="girl" src="../images/girl.svg" ></div>
+
+            <!-- text1 div - for the first text block -->
+            <p id="text1">Որակի կառավարման համակարգի խորհրդատվություն</p>
+
+            <!-- text2 div - for the second text block -->
+            <p id="text2">Մենք ներդնում ենք ISO ստանդարտներին համապատասխան Որակի Կառավարման Համակարգ և տրամադրում խորհրդատվություն բարձրակարգ մասնագետների կողմից</p>
+
+        
+            <!-- socicon div - for the social network icons -->
+            <div id="socicons">
+                <a href="https://www.facebook.com/amas.am.ConsultingAgency"><img src="../images/f.svg" alt="Facebook" id="facebook"> </a>
+                <a href="https://am.linkedin.com/company/amasllc"><img src="../images/in.svg" alt="LinkedIn"id="linked"></a>
+            </div>
+
+            <!-- contacts div - for the contact icons -->
+            <div id="contacts">
+                <img src="../images/phone.svg" alt="Telephone: " id="phone">
+                <p id="number">+374 91 423 037</p>
+                <img src="../images/location.svg" alt="Location: " id="location">
+                <p id="locationtext">ՀՀ, ք․ Երևան, Տիչինայի փող․ 98</p>
+                <img src="../images/mail.svg" alt="Email: " id="mail">
+                <p id="infomail">info@amas.am</p>
+            </div>
+
+    </body>
+</html>
